@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Zen Loop, sans-serif;
+    background-color: rgb(20, 4, 46);
+    color: blueviolet;
+}
+
+h2, h3 {
+    margin-top: -5px;
+    text-align: center;
+}
+
+#screen{   
+    width: 100%;
+    height: 100%;
+    opacity: 0.95;
+    color: white;
+    display: none;
+    position: absolute;
+    background-color: black;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 150px;
+    max-width: 240px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(27, 0, 49);
+    border: 3px solid white;
+    
+}
+.container h2{
+    text-align: center;
+   
+    font-size: 45px;
+    
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.celula {
+    width: 65px;
+    height: 55px;
+    font-size: 30pt;
+    margin: 4px 2px;
+    font-weight: 300;
+    padding-top: 10px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: rgb(85, 46, 156);
+    color: white;
+    
+}
